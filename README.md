@@ -10,7 +10,7 @@ vue "^2.6.14
 
 使用した API
 openweatherAPI
-https://openweathermap.org/
+
 
 ### 実装できなかったこと
 
@@ -29,5 +29,5 @@ https://openweathermap.org/
 
 ## スクリーンショット
 
-![スクリーンショット](/screenshots/screenshot1.png.png)
-![スクリーンショット](/screenshots/screenshot2.png.png)
+![スクリーンショット](/screenshots/screenshot1.png)
+![スクリーンショット](/screenshots/screenshot2.png)
