@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    volumes:
+      - "./server:/usr/src"
+    ports:
+      - "8000:8000"
+    tty: true
+    stdin_open: true
+    environment:
+      - DATABASE_URL=sqlite:////usr/src/db.sqlite3 # SQLiteデータベースのパスを指定
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    volumes:
+      - "./client/mysite:/usr/src"
+    ports:
+      - "8080:8080"
+    tty: true
+    stdin_open: true
+    depends_on:
+      - server
+    environment:
+      - NODE_ENV=development
