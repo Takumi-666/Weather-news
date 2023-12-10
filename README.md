@@ -21,6 +21,12 @@ openweatherAPI
 
 ## デモ動画
 
+
+https://github.com/Takumi-666/Weather-news/assets/108921895/8773e2ec-0381-49d6-aa47-477a2865fbb7
+
+
+
+
 [https://youtu.be/RHp5wv9onJE](https://youtu.be/RHp5wv9onJE)
 
 ## スクリーンショット
